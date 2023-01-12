@@ -1,3 +1,4 @@
+import { PageSinc17Module } from './page-sinc17/page-sinc17.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -10,7 +11,8 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    PageSinc17Module
   ],
   providers: [],
   bootstrap: [AppComponent]
